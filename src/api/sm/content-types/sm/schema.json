@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sms",
+  "info": {
+    "singularName": "sm",
+    "pluralName": "sms",
+    "displayName": "sm"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "partner_name": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    }
+  }
+}
